@@ -10,6 +10,7 @@ import devLinks from "../../assets/devlinks.png";
 import gitfav from "../../assets/gitFav.png";
 import pomo from "../../assets/pomotimer.png";
 import game from "../../assets/guessingame.png";
+import travelgram from "../../assets/travelgram.png"
 
 
 export function Projects(){
@@ -67,6 +68,13 @@ export function Projects(){
           With each attempt, you'll receive feedback to help you hone in on the correct number, making for an engaging and simple challenge."
           imageURL= {game}
           redirect="https://github.com/htzxd/guessingGame"
+        />
+
+        <Card 
+          title="Travelgram"
+          description="Travelgram is an project developed in html and css for reinforce my experiences as frontend developer."
+          imageURL= {travelgram}
+          redirect="https://github.com/htzxd/travelgram"
         />
         
       </Main>

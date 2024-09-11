@@ -4,7 +4,7 @@ import { Nav } from "../../components/nav/index";
 import { Card } from "../../components/card/index";
 import { Footer } from "../../components/footer/index";
 
-import spotify from "../../assets/spotify.png";
+import spotify from "../../assets/spot.png";
 import table from "../../assets/preview-tabela.png";
 import devLinks from "../../assets/devlinks.png";
 import gitfav from "../../assets/gitFav.png";
@@ -17,6 +17,7 @@ export function Projects(){
     <Container>
       <Nav/>
       <Main>
+        
         <Card
           title="Spotify Recommended"
           description="Listen Better is a music discovery platform built with ReactJS to recommend songs and artists based on your unique taste. 

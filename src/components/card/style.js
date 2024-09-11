@@ -7,6 +7,7 @@ export const Container = styled.div`
 
   h2 {
     margin-inline: 1rem;
+    font-size: 2.4rem;
   }
 
   img {
@@ -26,6 +27,7 @@ export const Container = styled.div`
   }
 
   p {
+    font-size: 1.4rem;
     padding: 1.2rem;
     cursor: pointer;
   }

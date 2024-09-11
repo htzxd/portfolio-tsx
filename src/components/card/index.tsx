@@ -20,7 +20,7 @@ export function Card({ title, description, imageURL, redirect }: CardProps){
         <p>
           {description}
         </p>
-      
+        
     </Container>
   )
 }

@@ -6,7 +6,8 @@ export const Container = styled.div`
 
     font-size: 3.8rem;
     letter-spacing: 3px;
-    
+
+    cursor: default;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,6 +17,10 @@ export const Container = styled.div`
     text-transform: uppercase;
     margin-bottom: 1rem;
     letter-spacing: 3px;
+  }
+
+  img {
+    height: 8rem;
   }
 `
 

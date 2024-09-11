@@ -8,6 +8,7 @@ import js from "../../assets/logo-javascript.svg";
 import css from "../../assets/logo-css3.svg";
 import html from "../../assets/logo-html5.svg";
 import node from "../../assets/logo-nodejs.svg";
+import typeScript from "../../assets/typescript.svg";
 
 export function Tech(){
   return (
@@ -45,6 +46,12 @@ export function Tech(){
               <img src={node} alt="tech logo" />
               <h2>nodejs</h2>
               <a href="#">Click here for seen my projects in NodeJS</a>
+            </li>
+            
+            <li>
+              <img src={typeScript} alt="tech logo" />
+              <h2>TypeScript</h2>
+              <a href="#">Click here for seen my projects in TypeScript</a>
             </li>
           </ul>
           

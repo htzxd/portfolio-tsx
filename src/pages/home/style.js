@@ -37,7 +37,10 @@ export const Profile = styled.div`
   display: flex;
 
   > img {
-    max-height: 13rem;
+    border-radius: 8px;
+    border: 1px solid ${({ theme })=> theme.colors.bg_main};
+    padding: 2px;
+    max-height: 15rem;
   }
 
 `
